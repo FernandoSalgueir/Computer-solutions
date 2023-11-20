@@ -1,0 +1,149 @@
+/* Reset document */
+*{ 
+    margin:0 ;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, header, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+/*configurações*/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    background-color:mediumblue;
+    position: fixed;
+    z-index: 999;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#menu li a {
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    text-shadow: 3px 3px 5px;
+}
+
+#menu li a:hover {
+    color: white;
+    background-color: white;
+}
+
+#logo {
+    max-height: 6rem;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+#home{
+    background-color: white;
+    color: white;
+}
+
+#services{
+    background-color: #01c3fe;
+    color: white;
+}
+
+#products{
+    background-color: #0b496d;
+    color: white;
+    height: 100%;
+    padding-bottom: 5rem;
+}
+
+#aboutus{
+    background-color: #7e808c;
+    color: white;
+}
+
+#contacts{
+    background-color: #00001a;
+    color: black;
+}
+
+#cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card_products{
+    background-color: #00001a;
+    color: #01c3fe;
+    margin: 1.1em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 22%;
+    min-width: 240px;
+    display: inline-block;
+}
+
+.card_container{
+    padding: 1em 1.2em;
+}
+
+.card_products img{
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.card_container p {
+
+    text-align: center;
+    margin: 1em;
+}
+
+.card_container p a {
+    
+    border-radius: 5px;
+    padding: 10px;
+    color:#01c3fe;
+    text-decoration:none;
+}
+
+#footer {
+    display: flex;
+    justify-content:space-between;
+    height:100%;
+    padding: 25px;
+    background-color: #090446;
+    color: whitesmoke;
+    text-align: right;
+
+}
